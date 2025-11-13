@@ -1,7 +1,7 @@
 Desglosando Flappy Bird
 - Personajes
-  - Pájaro jugable: Su objetivo es mantenerse vivo
-  - Tuberías: El antagonista de esta historia y que se opondrá al objetivo del pájaro
+  - Pájaro jugable: Su objetivo es mantenerse vivo (Su movimiento es vertical, de arriba a abajo)
+  - Tuberías: El antagonista de esta historia y que se opondrá al objetivo del pájaro (Es estatico, apareciendo uno arriba y otro abajo en el mismo eje dejando un agujero, por donde pasar)
 - Reglas
   - Pulsar para que el pájaro alce un poco el vuelo con cada toque de la pantalla
   - Si eres golpeado por las tuberías, el pájaro se estampara en ellas y morirá
