@@ -3,13 +3,14 @@ Desglosando Flappy Bird
   - Pájaro jugable: Su objetivo es mantenerse vivo (Su movimiento es vertical, de arriba a abajo)
   - Tuberías: El antagonista de esta historia y que se opondrá al objetivo del pájaro (Es estatico, apareciendo uno arriba y otro abajo en el mismo eje dejando un agujero, por donde pasar)
 - Reglas
-  - Pulsar para que el pájaro alce un poco el vuelo con cada toque de la pantalla
+  - Pulsar para que el pájaro alce un poco el vuelo con cada toque de la pantalla y en caso de no tocar caiga
   - Si eres golpeado por las tuberías, el pájaro se estampara en ellas y morirá
+  - Mientras que el Pájaro no toque las colisiones de las tuberias se suma duracion, la cual actua como puntuacion
 - Objetivos
-  - Mantenerse el mayor tiempo posible vivo, no hay un final como tal, la puntuación se basa en el tiempo máximo que hayas jugado
+  - Mantenerse el mayor tiempo posible vivo, no hay un final como tal, la puntuación se basa en el tiempo máximo que hayas jugado sin tocar ninguna colision de las tuberias
 - Niveles
   - Mapa basado en un fondo estático y tuberías que obstaculizan el vuelo
-  - Generación procedural (Mantener un mínimo de distancia entre las tuberías para no crear niveles imposibles)
+  - Generación procedural al ser niveles infinitos y con diferente colocacion de estructuras (Mantener un mínimo de distancia entre las tuberías para no crear niveles imposibles)
 - Abstracción
   - Pájaro jugable: Sin él no habría juego dado a que todas las mecánicas giran alrededor de él. Nivel 1
   - Tuberías: Es lo que añade un reto y esto mismo lo hace casi indispensable… Sin embargo, no es algo necesario para que el juego pueda funcionar en si, solo que sin estas sería muy aburrido. Nivel 2
